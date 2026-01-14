@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Cascadia Code';
+    src: local('Cascadia Code'), local('CascadiaCode'),
+         url('fonts/CascadiaCode-Variable.woff2') format('woff2'),
+         url('fonts/CascadiaCode-Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: local('Cascadia Code Italic'), local('CascadiaCode-Italic'),
+         url('fonts/CascadiaCode-Italic-Variable.woff2') format('woff2'),
+         url('fonts/CascadiaCode-Italic-Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Cascadia Code', ui-monospace, SFMono-Regular, Menlo, Monaco, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: grey;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code, pre, kbd, samp {
+    font-family: 'Cascadia Code', ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+    font-variant-ligatures: contextual;
+    font-feature-settings: "calt" 1, "liga" 1;
+}
+
+h1 {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-middle {
+    vertical-align: middle;
+    text-align: center;
+}
